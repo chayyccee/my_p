@@ -16,6 +16,10 @@ const Acomplishments = () => (
         </Box>
       ))}
     </Boxes>
+    
+    <div>
+    
+    </div>
   </Section>
 );
 

@@ -2,18 +2,21 @@ import React from 'react';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
+
+//styles
 import { LeftSection } from './HeroStyles';
 
 const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>Eke, <br />
-      Chinedu
+      Chinedu <img src="https://img.shields.io/badge/-Javascript-333333?style=flat&logo=Javascript" alt="javascript_badge" /> 
       </SectionTitle>
       <SectionText>
-        Hi there, you're welcome to my page. I am a <kbd>Full Stack</kbd> Software Developer
+        Welcome to my page. I am a <kbd>Full Stack</kbd> Software Developer
       </SectionText>
       <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
+      
     </LeftSection>
   </Section>
 );
