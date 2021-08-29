@@ -27,6 +27,7 @@ export const Div1 = styled.div`
   display: flex;
   flex-direction: row;
   align-content: center;
+
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 1 / 1 / 2 / 3;
   }
@@ -35,6 +36,7 @@ export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
   justify-content: space-around;
+
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
   }
@@ -44,6 +46,7 @@ export const Div3 = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: center;
     grid-area: 1 / 4 / 2 / 6;
@@ -61,6 +64,7 @@ export const NavLink = styled.a`
     opacity: 1;
     cursor: pointer;
   }
+  
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
   }
@@ -120,10 +124,28 @@ transition: 0.3s ease;
 color: white;
 border-radius: 50px;
   padding: 8px;
-&:hover {
-    background-color: #212d45;
+&:hover:first-child {
+    background-color: #4078c0;
     transform: scale(1.2);
     cursor: pointer;
     
+  }
+  &:hover:nth-of-type(2) {
+    background-color: #0077b5;
+    transform: scale(1.2);
+    cursor: pointer;
+    
+  }
+  &:hover:nth-of-type(3) {
+    background-color: white;
+    transform: scale(1.2);
+    cursor: pointer;
+    color: #25D366;
+  }
+  &:hover:last-child {
+    background-color: white;
+    transform: scale(1.2);
+    cursor: pointer; 
+    color: #bc2a8d;
   }
 `

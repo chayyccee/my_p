@@ -1,8 +1,12 @@
 import Link from 'next/link';
 import React from 'react';
+
+//icons
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
+import { RiWhatsappFill } from 'react-icons/ri';
 
+// styles
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
 const Header = () =>  (
@@ -14,7 +18,7 @@ const Header = () =>  (
       </a>
       </Link>
     </Div1>
-    <Div2>
+    <Div2 >
       <li>
         <Link href="#projects">
         <NavLink>Projects</NavLink>
@@ -33,13 +37,16 @@ const Header = () =>  (
      
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com/chayyccee">
+      <SocialIcons href="https://github.com/chayyccee" target="_blank">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/chinedu-eke">
+      <SocialIcons href="https://www.linkedin.com/in/chinedu-eke" target="_blank">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://instagram.com/chayyccee">
+      <SocialIcons href="https://wa.me/2348027950336" target="_blank">
+        <RiWhatsappFill size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://instagram.com/chayyccee" target="_blank">
         <AiFillInstagram size="3rem" />
       </SocialIcons>
     </Div3>

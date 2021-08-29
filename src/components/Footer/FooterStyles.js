@@ -157,3 +157,10 @@ export const LinkTitle = styled.h4`
 		margin-bottom: 8px;
 	}
 `
+export const FooterSvg = styled.div`
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	
+`

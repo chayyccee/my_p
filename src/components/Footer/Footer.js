@@ -1,8 +1,17 @@
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 
+//icons
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { RiWhatsappFill } from 'react-icons/ri';
+
+//styles
 import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, FooterSvg, SocialContainer, SocialIconsContainer } from './FooterStyles';
+
+// footer icons
+import StyledComponentSVG from '../FooterSVGs/StyledComponentSVG/StyledComponentSVG';
+import  NextJsSVG from '../FooterSVGs/NextJsSVG/NextJsSVG';
+import ReactIconsSVG from '../FooterSVGs/ReactIconsSVG/ReactIconsSVG';
 
 const Footer = () => {
   return (
@@ -20,20 +29,24 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>he hhehbhje ejjhej jehjhjec</Slogan>
+          <Slogan>Made with Next.js, Styled Components, and React-icons. <FooterSvg><NextJsSVG /> <StyledComponentSVG /> <ReactIconsSVG /></FooterSvg> </Slogan>
         </CompanyContainer>
         <SocialContainer>
-        <SocialIcons href="https://github.com/chayyccee">
+        <SocialIcons href="https://github.com/chayyccee" target="_blank">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/chinedu-eke">
+      <SocialIcons href="https://www.linkedin.com/in/chinedu-eke" target="_blank">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://instagram.com/chayyccee">
+      <SocialIcons href="https://wa.me/2348027950336" target="_blank">
+        <RiWhatsappFill size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://instagram.com/chayyccee" target="_blank">
         <AiFillInstagram size="3rem" />
       </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
+      <Slogan style={{ textAlign: 'center' }}>&copy; 2021</Slogan>
     </FooterWrapper>
   );
 };
