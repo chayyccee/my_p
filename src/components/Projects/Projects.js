@@ -18,7 +18,7 @@ const Projects = () => (
           </TitleContent>
           <CardInfo>{project.description}</CardInfo>
           <div>
-            <TitleContent>
+            <TitleContent style={{ color: '#9cc9e3', paddingTop: '4px' }}>
               Stack
             </TitleContent>
             <TagList>
