@@ -1,9 +1,13 @@
 {
   "name": "portfolio_nextjs",
   "version": "0.1.0",
-  "description": "a portfolio page for Eke, Chinedu Kenechukwu.",
+  "description": "the portfolio page of Eke, Chinedu Kenechukwu.",
   "author": "Chinedu Eke <ekechinedu488@gmail.com> (https://www.github.com/chayyccee/)",
   "private": true,
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/chayyccee/my_p"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",

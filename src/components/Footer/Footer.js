@@ -6,7 +6,7 @@ import { RiWhatsappFill } from 'react-icons/ri';
 
 //styles
 import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, FooterSvg, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialIconsContainer, FooterSvg, SocialContainer, FooterLink } from './FooterStyles';
 
 // footer icons
 import StyledComponentSVG from '../FooterSVGs/StyledComponentSVG/StyledComponentSVG';
@@ -19,7 +19,7 @@ const Footer = () => {
       <LinkList>
       <LinkColumn>
         <LinkTitle>Call</LinkTitle>
-        <LinkItem href="tel:111-111-111-1">111-111-111-1</LinkItem>
+        <LinkItem href="tel:08162677448">+234-816-267-744-8</LinkItem>
       </LinkColumn>
       <LinkColumn>
         <LinkTitle>Email</LinkTitle>
@@ -29,7 +29,16 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Made with Next.js, Styled Components, and React-icons. <FooterSvg><NextJsSVG /> <StyledComponentSVG /> <ReactIconsSVG /></FooterSvg> </Slogan>
+          <Slogan>Made with 
+              <FooterLink href="https://nextjs.org/" target="_blank"> Next.js</FooterLink>,
+              <FooterLink href="https://styled-components.com/" target="_blank"> Styled Components</FooterLink>, and
+              <FooterLink href="https://react-icons.github.io/react-icons/" target="_blank"> React-icons</FooterLink>.
+            <FooterSvg>
+              <NextJsSVG />
+              <StyledComponentSVG />
+              <ReactIconsSVG />
+            </FooterSvg>
+          </Slogan>
         </CompanyContainer>
         <SocialContainer>
         <SocialIcons href="https://github.com/chayyccee" target="_blank">

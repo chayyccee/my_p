@@ -164,3 +164,10 @@ export const FooterSvg = styled.div`
 	align-items: center;
 	
 `
+
+export const FooterLink = styled.a`
+	color: rgba(255, 255, 255, 0.5);
+	&:hover {
+		color: white;
+	}
+`
