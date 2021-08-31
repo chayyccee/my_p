@@ -3,6 +3,7 @@ import React from 'react';
 //icons
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { RiWhatsappFill } from 'react-icons/ri';
+import MediumSVG from '../SVGs/MediumSVG';
 
 //styles
 import { SocialIcons } from '../Header/HeaderStyles';
@@ -25,7 +26,10 @@ const Footer = () => {
         <LinkTitle>Email</LinkTitle>
         <LinkItem href="mailto:ekechinedu488@gmail.com">ekechinedu488@gmail.com</LinkItem>
       </LinkColumn>
-      
+      <LinkColumn>
+      <LinkTitle style={{ paddingLeft: '25px'}}> Articles</LinkTitle>
+        <a href="https://ekechinedu488.medium.com/"><MediumSVG /></a>
+      </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>

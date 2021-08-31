@@ -66,13 +66,13 @@ export const TimeLineData = [
   { year: 2016, text: 'Got my Bachelors', },
   { year: 2018, text: 'Started and Persisted on my journey', },
   { year: 2019, text: 'Worked for a start up based in Lagos', },
-  { year: 2020, text: 'Worked for a start up based in beijing', },
+  { year: 2020, text: 'Worked for a start up based in Beijing', },
   { year: 2021, text: 'Got hired by a Nigerian Bank', },
 ];
 
 export const AccomplishmentData = [
   { number: 20, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
+  { number: 100, text: 'Mentored Students', },
+  { number: 350, text: 'Contributions across git platforms', },
+  { number: 1900, text: 'Followers across platforms', }
 ];
