@@ -28,7 +28,7 @@ const Footer = () => {
       </LinkColumn>
       <LinkColumn>
       <LinkTitle style={{ paddingLeft: '25px'}}> Articles</LinkTitle>
-        <a href="https://ekechinedu488.medium.com/"><MediumSVG /></a>
+        <a href="https://ekechinedu488.medium.com/" target="_blank"><MediumSVG /></a>
       </LinkColumn>
       </LinkList>
       <SocialIconsContainer>

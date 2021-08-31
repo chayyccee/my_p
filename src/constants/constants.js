@@ -72,7 +72,7 @@ export const TimeLineData = [
 
 export const AccomplishmentData = [
   { number: 20, text: 'Open Source Projects'},
-  { number: 100, text: 'Mentored Students', },
+  { number: 100, text: 'Mentees', },
   { number: 350, text: 'Contributions across git platforms', },
   { number: 1900, text: 'Followers across platforms', }
 ];
