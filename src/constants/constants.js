@@ -60,6 +60,15 @@ export const projects = [
     visit: 'https://github.com/chayyccee/memories-client',
     id: 6,
   },
+  {
+    title: 'Chat App',
+    description: "The App is Full Stack Realtime Chat Messaging App with Authentication & SMS Notifications",
+      image: '/images/8.png',
+      tags: ['React', 'Express', 'Node', 'Twilio', 'getStream'],
+    source: 'https://medchat.netlify.app/',
+    visit: 'https://github.com/chayyccee/enterprize-chat_app-client',
+    id: 7,
+  },
 ];
 
 export const TimeLineData = [

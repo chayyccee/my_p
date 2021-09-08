@@ -1,7 +1,13 @@
 import React from 'react';
+
+//icons
 import { DiFirebase, DiReact } from 'react-icons/di';
-import { FaNode } from 'react-icons/fa';
-import { BiCodeCurly } from 'react-icons/bi';
+import { AiOutlineMonitor, AiOutlineCloudServer } from 'react-icons/ai';
+import { FaNode, FaGitAlt } from 'react-icons/fa';
+import { BiCodeCurly, BiBookContent } from 'react-icons/bi';
+import { SiSwagger, SiPostman, SiExpo, SiTrello } from 'react-icons/si';
+
+// components
 import { Section, SectionDivider,
   //SectionText,
   SectionTitle } from '../../styles/GlobalComponents';
@@ -44,6 +50,70 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Database</ListTitle>
           <ListParagraph>Experience with <br /> NoSQL & SQL</ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <AiOutlineMonitor size="6rem" />
+        <ListContainer>
+          <ListTitle>Bug Tracking</ListTitle>
+          <ListParagraph>Experience with <br /> Track.js</ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <AiOutlineCloudServer size="6rem" />
+        <ListContainer>
+          <ListTitle>Cloud Service</ListTitle>
+          <ListParagraph>Experience with Heroku <br /> AWS and Digital Ocean</ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <BiBookContent size="6rem" />
+        <ListContainer>
+          <ListTitle>Headless CMS</ListTitle>
+          <ListParagraph>Experience with <br /> Strapi and Contentful</ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <FaGitAlt size="6rem" />
+        <ListContainer>
+          <ListTitle>Versioning</ListTitle>
+          <ListParagraph>Experience with <br /> Git</ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <SiSwagger size="5rem" />
+        <ListContainer>
+          <ListTitle>API Documentation</ListTitle>
+          <ListParagraph>Experience with <br /> Swagger</ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <SiPostman size="5rem" />
+        <ListContainer>
+          <ListTitle>API <br /> Testing</ListTitle>
+          <ListParagraph>Experience with <br /> Postman</ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <SiExpo size="5rem" />
+        <ListContainer>
+          <ListTitle>Mobile <br /> App Dev</ListTitle>
+          <ListParagraph>Experience with <br /> Expo</ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <SiTrello size="5rem" />
+        <ListContainer>
+          <ListTitle>Task <br /> Management</ListTitle>
+          <ListParagraph>Experience with <br /> Trello</ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
