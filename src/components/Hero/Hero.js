@@ -15,7 +15,7 @@ const Hero = () => (
       <SectionText>
         Welcome to my page. I am a <kbd>Full Stack</kbd> Software Developer
       </SectionText>
-      <Button onClick={() => window.location = 'https://pdfhost.io/v/seZ1V.wqc_ResumeChineduEke.pdf'}>My Resume</Button>
+      <Button onClick={() => window.location = 'https://pdfhost.io/v/45gCItg5o_ChineduEkehttps://pdfhost.io/v/45gCItg5o_ChineduEke'}>My Resume</Button>
       
     </LeftSection>
   </Section>
