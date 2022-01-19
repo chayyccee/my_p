@@ -59,7 +59,7 @@ const Footer = () => {
       </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
-      <Slogan style={{ textAlign: 'center' }}>&copy; 2021</Slogan>
+      <Slogan style={{ textAlign: 'center' }}>&copy; 2022</Slogan>
     </FooterWrapper>
   );
 };
