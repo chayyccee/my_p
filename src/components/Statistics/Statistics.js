@@ -19,6 +19,16 @@ const Statistics = () => {
             />
             </ImgCont>
             <div>
+                <figure
+                    style={{ paddingTop: "3rem", paddingBottom: '3rem' }}
+                >
+                    <embed
+                        src="https://activity-graph.herokuapp.com/graph?username=chayyccee&hide_border=true&theme=react-dark"
+                        alt="github activity graph"
+                    ></embed>
+                </figure>
+            </div>
+            <div>
             <figure
                 style={{ paddingTop: "3rem" }}
             >
